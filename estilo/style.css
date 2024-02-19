@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;200;600&display=swap');
+
+:root{
+    --color1:#081B29;
+    --color2:#00ABF0;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 95vh;
+    background-color: var(--color1);
+}
+
+.cabecalho{
+    margin-top: 60px;
+    margin: 100px;
+}
+
+.cabecalho-menu{
+    display: flex;
+}
+
+.link-header{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-right: 20px;
+
+}
+
+main{
+    color: white;
+    margin-top: 60px;
+    margin: 100px;
+}
+
+.titulo-inicio{
+    padding-bottom: 10px;
+    font-size: 3em;
+    font-variant: small-caps;
+}
+
+.titulo-secundario{
+    font-size: 1.7em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+strong{
+    color: var(--color2);
+}
+
+.link-faculdade{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-faculdade:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.apresentacao-sobre-mim{
+    background-color: #056489;
+    max-width: 625px;
+    min-width: 300px;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 2em;
+    margin-bottom: 20px;
+    font-size: 1.7em;
+    text-align: justify;
+    
+}
+
+.titulo-terciario{
+    font-size: 1.7em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.links-redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.links-redes-controle{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 300px;
+    border: 2px solid #22D4FD;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+}
