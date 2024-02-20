@@ -33,14 +33,24 @@ body{
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
-    padding-right: 20px;
+    margin-right: 70px;
 
+}
+
+.link-header:hover{
+    text-decoration: underline;
+    color: var(--color2);
+    transition-duration: 1s;
 }
 
 main{
     color: white;
     margin-top: 60px;
     margin: 100px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .titulo-inicio{
@@ -70,7 +80,7 @@ strong{
 }
 
 .apresentacao-sobre-mim{
-    background-color: #056489;
+    background-color: var(--color2);
     max-width: 625px;
     min-width: 300px;
     color: white;
@@ -84,12 +94,31 @@ strong{
     
 }
 
+.foto-minha {
+    background-color: var(--color2);
+    max-width: 625px;
+    min-width: 300px;
+    display: flex;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-image: url(../assets/foto_minha_camisa.jpg);
+    background-position: center center;
+    background-size: cover;
+    border: 5px solid var(--color2);
+}
+
 .titulo-terciario{
-    font-size: 1.7em;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
     padding-top: 10px;
     padding-bottom: 20px;
     text-align: center;
     margin-top: 50px;
+    font-variant: small-caps;
+
+
 }
 
 .links-redes{
@@ -114,4 +143,9 @@ strong{
     text-decoration: none;
     color: #F6F6F6;
     padding-left: 10px;
+}
+
+.links-redes-controle:hover{
+    background-color: var(--color2);
+    transition-duration: 1s;
 }
