@@ -163,6 +163,22 @@ footer{
         flex-direction: column-reverse;
         padding-left: -10px;
     }
+
+    .cabecalho{
+        padding: 10%;
+        font-size: 1px;
+    }
+
+    .cabecalho-menu{
+        display: flex;
+        justify-content: center;
+    }
+
+    .link-header{
+        font-size: 17px;
+        text-decoration: underline;
+    }
+
     .foto-minha{
         display: flex;
         margin: auto;
