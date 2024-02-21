@@ -46,10 +46,12 @@ body{
 }
 
 main{
+    max-width: 100%;
+    min-width: 200px;
     color: white;
     margin-top: 60px;
     margin-bottom: 110px;
-    padding-left: 10px;
+    padding-left: 3%;
     display: flex;
     justify-content: space;
     gap: 20%;
@@ -91,6 +93,8 @@ strong{
 
 .apresentacao-sobre-mim{
     background-color: var(--color2);
+    max-width: 700px;
+    min-width: 300px;
     color: white;
     font-weight: 400;
     padding: 10px;
@@ -103,7 +107,8 @@ strong{
 }
 
 .foto-minha {
-    margin-top: 2%;
+    margin-top: 100px;
+    margin-right: 10px;
     border-radius: 50%;
     width: 30%;
     height: 30%;
@@ -133,7 +138,7 @@ strong{
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 50%;
+    width: 300px;
     border: 2px solid var(--color2);
     text-align: center;
     border-radius: 8px;
@@ -199,5 +204,9 @@ footer{
 
     .titulo-secundario{
         text-align: center;
+    }
+
+    footer{
+        height: 30px ;
     }
 }
