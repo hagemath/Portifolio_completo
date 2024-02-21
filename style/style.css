@@ -161,7 +161,7 @@ footer{
 @media(max-width: 1200px) {
     main{
         flex-direction: column-reverse;
-        padding-left: -10px;
+        margin-left: -10px;
     }
 
     .cabecalho{
@@ -187,9 +187,10 @@ footer{
     }
 
     .apresentacao-sobre-mim{
-        width: 93%;
+        width: 90%;
         display: flex;
         margin: auto;
+        
     }
 
     .titulo-inicio{
