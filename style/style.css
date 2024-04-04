@@ -53,7 +53,7 @@ main{
     margin-bottom: 110px;
     padding-left: 3%;
     display: flex;
-    justify-content: space;
+    justify-content: space-between;
     gap: 20%;
 }
 
